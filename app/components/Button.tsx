@@ -20,7 +20,6 @@ const Button: FC<ButtonProps> = ({
   small,
   icon: Icon,
 }) => {
-  console.log(onClick);
   return (
     <button
       onClick={onClick}

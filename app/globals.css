@@ -7,3 +7,35 @@ body,
 :root {
   height: 100%;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* background-color: #000; */
+}
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5rem;
+}
+
+.category-scroll::-webkit-scrollbar {
+  height: 5px;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrCalendarWrapper {
+  font-size: 16px !important;
+  width: 100% !important;
+}
