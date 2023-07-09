@@ -109,7 +109,7 @@ const RentModal = () => {
     setIsLoading(true);
 
     axios
-      .post('/api/listings', data)
+      .post('https://prj-nextjs.vercel.app/api/listings', data)
       .then(() => {
         toast.success('Listing created!');
         router.refresh();

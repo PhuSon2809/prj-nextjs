@@ -35,7 +35,7 @@ const RegisterModal = () => {
     setIsLoading(true);
 
     axios
-      .post('/api/register', data)
+      .post('https://prj-nextjs.vercel.app/api/register', data)
       .then(() => {
         registerModal.onClose();
       })
